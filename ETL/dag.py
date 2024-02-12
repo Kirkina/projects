@@ -18,7 +18,7 @@ connection = {'host': 'https://clickhouse.lab.karpov.courses',
 connection_test = {'host': 'https://clickhouse.lab.karpov.courses',
                   'database':'test',
                   'user':'student-rw', 
-                  'password':'656e2b0c9c'}
+                  'password':'***'}
 
 # дефолтные параметры, которые прокидываются в таски
 default_args = {'owner': 't-kirkina',
