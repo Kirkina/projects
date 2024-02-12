@@ -12,7 +12,7 @@ from airflow.operators.python import get_current_context
 connection = {'host': 'https://clickhouse.lab.karpov.courses',
               'database':'simulator_20240120',
               'user':'student',
-              'password':'dpo_python_2020'}
+              'password':'***'}
 
 # параметры для БД, в которую будем заливать обработанную таблицу
 connection_test = {'host': 'https://clickhouse.lab.karpov.courses',
